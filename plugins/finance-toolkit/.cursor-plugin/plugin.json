@@ -1,0 +1,11 @@
+{
+  "name": "finance-toolkit",
+  "version": "1.0.0",
+  "description": "Personal finance toolkit — portfolio analysis, rebalancing alerts, tax-loss harvesting, and market intelligence using Zerodha Kite",
+  "author": {
+    "name": "Harshal Khairnar"
+  },
+  "license": "MIT",
+  "keywords": ["finance", "portfolio", "stocks", "mutual-funds", "zerodha", "kite"],
+  "category": "finance"
+}

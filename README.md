@@ -7,6 +7,7 @@ A dual-compatible plugin marketplace for **Cursor** and **Claude Code**. Contain
 | Plugin | Description |
 |---|---|
 | [job-search-toolkit](plugins/job-search-toolkit/) | Resume tailoring, company research, interview prep, salary intelligence, and negotiation strategies for senior engineering leadership roles |
+| [finance-toolkit](plugins/finance-toolkit/) | Portfolio analysis, rebalancing alerts, tax-loss harvesting, and market intelligence using Zerodha Kite |
 
 ## Installation
 
@@ -40,12 +41,17 @@ personal-skills/
 ├── .cursor-plugin/marketplace.json    # Cursor marketplace registry
 ├── .claude-plugin/marketplace.json    # Claude Code marketplace registry
 ├── plugins/
-│   └── job-search-toolkit/            # First plugin
+│   ├── job-search-toolkit/            # Job search skills
+│   │   ├── .cursor-plugin/plugin.json
+│   │   ├── .claude-plugin/plugin.json
+│   │   ├── skills/                    # Shared skills (both tools)
+│   │   ├── rules/                     # Cursor rules
+│   │   └── templates/                 # Reference templates
+│   └── finance-toolkit/              # Finance skills
 │       ├── .cursor-plugin/plugin.json
 │       ├── .claude-plugin/plugin.json
 │       ├── skills/                    # Shared skills (both tools)
-│       ├── rules/                     # Cursor rules
-│       └── templates/                 # Reference templates
+│       ├── mcp.json / .mcp.json       # Kite MCP server config
 └── .gitignore
 ```
 

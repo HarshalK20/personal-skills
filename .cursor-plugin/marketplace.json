@@ -11,6 +11,17 @@
       },
       "keywords": ["job-search", "resume", "interview", "salary", "negotiation", "career"],
       "category": "productivity"
+    },
+    {
+      "name": "finance-toolkit",
+      "source": "./plugins/finance-toolkit",
+      "description": "Personal finance toolkit — portfolio analysis, rebalancing alerts, tax-loss harvesting, and market intelligence using Zerodha Kite",
+      "version": "1.0.0",
+      "author": {
+        "name": "Harshal Khairnar"
+      },
+      "keywords": ["finance", "portfolio", "stocks", "mutual-funds", "zerodha", "kite"],
+      "category": "finance"
     }
   ]
 }
