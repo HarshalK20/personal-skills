@@ -1,0 +1,16 @@
+{
+  "name": "personal-skills",
+  "plugins": [
+    {
+      "name": "job-search-toolkit",
+      "source": "./plugins/job-search-toolkit",
+      "description": "Job search toolkit for senior engineering leadership roles — resume tailoring, company research, interview prep, salary intelligence, and negotiation strategies",
+      "version": "1.0.0",
+      "author": {
+        "name": "Harshal Khairnar"
+      },
+      "keywords": ["job-search", "resume", "interview", "salary", "negotiation", "career"],
+      "category": "productivity"
+    }
+  ]
+}

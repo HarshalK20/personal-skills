@@ -1,0 +1,11 @@
+{
+  "name": "job-search-toolkit",
+  "version": "1.0.0",
+  "description": "Job search toolkit for senior engineering leadership roles — resume tailoring, company research, interview prep, salary intelligence, and negotiation strategies",
+  "author": {
+    "name": "Harshal Khairnar"
+  },
+  "license": "MIT",
+  "keywords": ["job-search", "resume", "interview", "salary", "negotiation", "career"],
+  "category": "productivity"
+}
